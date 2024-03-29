@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import pg from "pg";
 import env from "dotenv";
 const app = express();
-const port = 10000;
+const port = 5432;
 
 const db = new pg.Client({
   user: process.env.PG_USER,
